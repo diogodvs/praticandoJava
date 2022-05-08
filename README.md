@@ -19,7 +19,7 @@ H (MINUTOS	PRÊMIO (R$)
  2.Faça um programa que receba a idade e o peso de uma pessoa. De acordo com a tabela a seguir, verifique e mostre em qual grupo de risco essa pessoa se encaixa.
 
 
-![comandocontrole2](https://user-images.githubusercontent.com/88931507/167282536-1a8dfd42-a06c-4576-a1d1-de2f477b8115.jpg)
+![comandocontrole2](https://user-images.githubusercontent.com/88931507/167282536-1a8dfd42-a06c-4576-a1d1-de2f477b8115.jpg width="200px" height="200px")
 
 ---------------------------------------------------------------
 
