@@ -32,7 +32,7 @@ public class exercicio4 {
 		} else if (salario > 900.00) {
 			ajuste = ((salario + 35.00) * 0.07);
 			salariofin = ajuste + salario + 35.00;
-			System.out.printf("Seu salario liquido será: %.2f", salariofin);
+			System.out.printf("Seu salario liquido será de R$ %.2f.", salariofin);
 		}
 
 		dados.close();
