@@ -1,4 +1,4 @@
-package Exercicios;
+package exercicios_11_ao_18;
 
 import java.util.Scanner;
 
@@ -23,6 +23,6 @@ public class exercicio11 {
 
 
 
-	}
+	dados.close();}
 
 }

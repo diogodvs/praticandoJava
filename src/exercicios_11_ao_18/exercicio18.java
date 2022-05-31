@@ -1,4 +1,4 @@
-package Exercicios;
+package exercicios_11_ao_18;
 
 import java.util.Scanner;
 
@@ -7,8 +7,6 @@ public class exercicio18 {
 	public static void main(String[] args) {
 
 		Scanner dados = new Scanner(System.in);
-
-		double angulo = 0;
 
 		double angulos[] = new double[3];
 
@@ -27,6 +25,6 @@ public class exercicio18 {
 			System.out.println("TRIANGULO ACUNTÂNGULO");
 		}
 
-	}
+	dados.close();}
 
 }

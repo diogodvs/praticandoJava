@@ -1,4 +1,4 @@
-package Exercicios;
+package exercicios_1_ao_10;
 
 import java.util.Scanner;
 
@@ -18,6 +18,11 @@ public class exercicio7 {
 			System.out.println("Insira um valor: ");
 			double valor = dados.nextDouble();
 
+			if(valor <= 0) {
+				System.out.println("Nao calculamos valores menores ou iguais a 0!!");
+				break;
+			}
+			
 			double raiz = Math.sqrt(valor);
 			double quadrado = Math.pow(valor, 2);
 			double cubo = Math.pow(valor, 3);

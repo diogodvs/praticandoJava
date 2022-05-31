@@ -1,4 +1,4 @@
-package Exercicios;
+package exercicios_1_ao_10;
 
 import java.util.Scanner;
 
@@ -18,6 +18,6 @@ public class exercicio9 {
 			System.out.println("Voce ainda nao pode votar!!");
 		}
 		
-	}
+	dados.close();}
 
 }

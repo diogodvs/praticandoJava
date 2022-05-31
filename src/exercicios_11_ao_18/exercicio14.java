@@ -1,8 +1,8 @@
-package Exercicios;
+package exercicios_11_ao_18;
 
 import java.util.Scanner;
 
-public class exercicio15 {
+public class exercicio14 {
 
 	public static void main(String[] args) {
 
@@ -32,16 +32,9 @@ public class exercicio15 {
 
 			System.out.println("A area do quadrado é: " + area);
 
-		} else if(quantlados < 3) {
-			System.out.println("A figura geometrica não é um POLIGONO!!");
-			
-		} else if(quantlados == 5) {
+		} else {
 			System.out.println("A figura geometrica é um PENTAGONO!!");
-		
-		} else if(quantlados > 5) {
-			System.out.println("POLIGONO não identificado!!");
 		}
-		
 
 		dados.close();
 	}
