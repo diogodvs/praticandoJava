@@ -29,20 +29,18 @@ public class exercicio36 {
 
 		if (saldo >= 2401) {
 			bonus = 500.00;
-			System.out.println("Voce ganhara R$ " + bonus + " de bonificação");
+
 		} else if (saldo >= 1801 && saldo <= 2400) {
 			bonus = 400.00;
-			System.out.println("Voce ganhara R$ " + bonus + " de bonificação");
 		} else if (saldo >= 1201 && saldo <= 1800) {
 			bonus = 300.00;
-			System.out.println("Voce ganhara R$ " + bonus + " de bonificação");
 		} else if (saldo >= 600 && saldo <= 1200) {
 			bonus = 200.00;
-			System.out.println("Voce ganhara R$ " + bonus + " de bonificação");
 		} else {
 			bonus = 100.00;
-			System.out.println("Voce ganhara R$ " + bonus + " de bonificação");
 		}
+		
+		System.out.println("Voce ganhara R$ " + bonus + " de bonificação");
 
 		dados.close();
 	}
