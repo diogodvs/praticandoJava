@@ -16,10 +16,10 @@ public class exercicio35 {
 		if (value <= 12000.00) {
 			price = value * 1.05;
 
-		} else if (value > 12000.00 && value <= 25000.00) {
+		} else if (value <= 25000.00) {
 			price = value + (value * 0.10) + (value * 0.15);
 
-		} else if (value > 25000.00) {
+		} else {
 			price = value + (value * 0.15) + (value * 0.20);
 
 		}
